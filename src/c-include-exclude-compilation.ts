@@ -1,0 +1,3 @@
+//Secara default, semua file ts akan coba dikompilasi oleh TypeScript, dan Misal kita hanya ingin melakukan kompilasi pada code program, dan tidak butuh melakukan kompilasi untuk code unit test, itu bisa dilakukan dengan tambahkan include dan exclude pada tsconfig.json nya.
+//include artinya folder yang akan dikompilasi, untuk melakukan configurasi ini terletak pada data object bernama:  include
+//exclude artinya file yang akan dikompilasi, untuk melakukan configurasi ini terletak pada data object bernama:  exclude
